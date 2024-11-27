@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Quebra-Cabeça</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game-container">
+    <h1>Quebra-Cabeça</h1>
+    <div id="puzzle-areas">
+        <div class="drop-area" id="drop1"></div>
+        <div class="drop-area" id="drop2"></div>
+        <div class="drop-area" id="drop3"></div>
+        <div class="drop-area" id="drop4"></div>
+        <div class="drop-area" id="drop5"></div>
+        <div class="drop-area" id="drop6"></div>
+        <div class="drop-area" id="drop7"></div>
+        <div class="drop-area" id="drop8"></div>
+        <div class="drop-area" id="drop9"></div>
+    </div>
+
+    <div id="puzzle-pieces">
+        <div class="puzzle-piece" id="piece1"></div>
+        <div class="puzzle-piece" id="piece2"></div>
+        <div class="puzzle-piece" id="piece3"></div>
+        <div class="puzzle-piece" id="piece4"></div>
+        <div class="puzzle-piece" id="piece5"></div>
+        <div class="puzzle-piece" id="piece6"></div>
+        <div class="puzzle-piece" id="piece7"></div>
+        <div class="puzzle-piece" id="piece8"></div>
+        <div class="puzzle-piece" id="piece9"></div>
+    </div>
+
+    <div id="score">Acertos: 0/9</div>
+
+    <!-- Div de congratulações -->
+    <div id="congratulations" style="display: none;">
+        <h2>Parabéns! Você completou o quebra-cabeça!</h2>
+        <img src="congratulations.jpg" alt="Parabéns" style="width: 100%; max-width: 300px;">
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
